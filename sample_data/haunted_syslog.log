@@ -1,0 +1,10 @@
+# GhostTrace AI - Sample Plain Text Syslog
+2026-10-31 01:00:00 [CRON] Periodic system health check passed
+2026-10-31 02:15:30 [NETWORK] Interface eth0 link up 1000Mbps full-duplex
+2026-10-31 03:33:07 [KERNEL] Spontaneous execution of daemon.spirit at hex 0xDEADBEEF
+2026-10-31 03:33:09 [AUTH] Simulated password failure for user root_null from terminal tty_phantom
+2026-10-31 03:33:12 [AUTH] Simulated password failure for user root_null (repeat burst)
+2026-10-31 03:33:15 [AUTH] Simulated password failure for user root_null (lockout triggered)
+2026-10-31 03:33:20 [FILESYSTEM] Cryptic echo_0333.wav file created in temporary storage
+2026-10-31 03:34:00 [KERNEL] Daemon daemon.spirit terminated with exit code 0x0000NULL
+2026-10-31 04:00:00 [CRON] Hourly maintenance script finished

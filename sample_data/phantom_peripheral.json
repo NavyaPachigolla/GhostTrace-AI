@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pp_001",
+    "timestamp": "2026-10-31T02:45:10",
+    "source": "USBHub",
+    "event_type": "Device",
+    "message": "Port 4 standard USB optical mouse connected.",
+    "vendor_id": "0x046D",
+    "product_id": "0xC077"
+  },
+  {
+    "id": "pp_002",
+    "timestamp": "2026-10-31T03:14:02",
+    "source": "USBHub",
+    "event_type": "Device",
+    "message": "Unregistered phantom peripheral connected to root hub [VID:0x0000 PID:0xDEAD].",
+    "vendor_id": "0x0000",
+    "product_id": "0xDEAD",
+    "device_name": "Phantom HID Keystroke Injector"
+  },
+  {
+    "id": "pp_003",
+    "timestamp": "2026-10-31T03:14:05",
+    "source": "InputSubsystem",
+    "event_type": "Device",
+    "message": "Simulated ghost keystroke sequence detected: 'WHY DID YOU TURN OFF THE SCREEN'.",
+    "injected_chars": 31,
+    "input_rate": "120wpm"
+  },
+  {
+    "id": "pp_004",
+    "timestamp": "2026-10-31T03:14:09",
+    "source": "USBHub",
+    "event_type": "Device",
+    "message": "Peripheral [VID:0x0000 PID:0xDEAD] disconnected abruptly without unmount handshake.",
+    "status": "phantom_disconnect"
+  },
+  {
+    "id": "pp_005",
+    "timestamp": "2026-10-31T04:00:00",
+    "source": "USBHub",
+    "event_type": "Device",
+    "message": "Root hub bus reset completed. All attached devices verified.",
+    "status": "nominal"
+  }
+]

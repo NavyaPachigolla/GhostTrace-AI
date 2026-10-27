@@ -1,0 +1,65 @@
+[
+  {
+    "id": "fs_001",
+    "timestamp": "2026-10-31T00:05:12",
+    "source": "RackMonitor",
+    "event_type": "Service",
+    "message": "Routine environmental ping: Rack 12 ambient temperature 21.4C.",
+    "rack_id": "RACK-12",
+    "status": "nominal"
+  },
+  {
+    "id": "fs_002",
+    "timestamp": "2026-10-31T00:45:00",
+    "source": "NetworkBus",
+    "event_type": "Network",
+    "message": "Inbound telemetry packet received from decommissioned server node 13 (Subnet 10.0.99.13).",
+    "node_status": "DECOMMISSIONED_2021",
+    "packet_type": "HEARTBEAT"
+  },
+  {
+    "id": "fs_003",
+    "timestamp": "2026-10-31T03:15:20",
+    "source": "AuthDaemon",
+    "event_type": "Authentication",
+    "message": "Simulated SSH authentication failed for user guest_from_beyond from terminal tty_phantom.",
+    "user": "guest_from_beyond",
+    "port": 2222,
+    "auth_method": "publickey_void"
+  },
+  {
+    "id": "fs_004",
+    "timestamp": "2026-10-31T03:15:22",
+    "source": "AuthDaemon",
+    "event_type": "Authentication",
+    "message": "Simulated SSH authentication failed for user guest_from_beyond (second attempt).",
+    "user": "guest_from_beyond",
+    "port": 2222
+  },
+  {
+    "id": "fs_005",
+    "timestamp": "2026-10-31T03:15:25",
+    "source": "AuthDaemon",
+    "event_type": "Authentication",
+    "message": "Simulated SSH authentication failed for user guest_from_beyond: Unknown entity signature.",
+    "user": "guest_from_beyond",
+    "port": 2222
+  },
+  {
+    "id": "fs_006",
+    "timestamp": "2026-10-31T03:28:11",
+    "source": "ThermalSensor",
+    "event_type": "Device",
+    "message": "Thermal anomaly detected: Cold zone sudden drop to 2.1C in decommissioned bay 13.",
+    "bay_id": "BAY-13",
+    "temperature_c": 2.1
+  },
+  {
+    "id": "fs_007",
+    "timestamp": "2026-10-31T05:00:00",
+    "source": "RackMonitor",
+    "event_type": "Service",
+    "message": "Shift change checklist: All production servers operating within nominal tolerance.",
+    "operator": "sysadmin_morning"
+  }
+]

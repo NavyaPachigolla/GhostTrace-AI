@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghosttrace-ai"
+version = "1.0.0"
+description = "GhostTrace AI - Spooky local AI-powered computer activity storyteller"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "GhostTrace AI Team" }
+]
+keywords = ["hacktoberfest", "local-ai", "ollama", "qwen2.5", "streamlit", "storyteller", "paranormal"]
+dependencies = [
+    "streamlit>=1.35.0",
+    "requests>=2.31.0",
+    "pytest>=8.0.0",
+    "pydantic>=2.0.0",
+    "python-dateutil>=2.8.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]

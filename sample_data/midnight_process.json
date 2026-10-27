@@ -1,0 +1,63 @@
+[
+  {
+    "id": "mp_001",
+    "timestamp": "2026-10-31T01:15:00",
+    "source": "TaskScheduler",
+    "event_type": "Process",
+    "message": "Routine automated backup task completed successfully.",
+    "process": "backup_agent.exe",
+    "pid": 1042
+  },
+  {
+    "id": "mp_002",
+    "timestamp": "2026-10-31T02:00:22",
+    "source": "SystemKernel",
+    "event_type": "System",
+    "message": "Power state transition: System entered low-power idle sleep mode.",
+    "cpu_state": "C3"
+  },
+  {
+    "id": "mp_003",
+    "timestamp": "2026-10-31T03:33:07",
+    "source": "SystemKernel",
+    "event_type": "Process",
+    "message": "Spontaneous execution of unregistered process daemon.spirit without valid parent PID.",
+    "process": "daemon.spirit",
+    "pid": 6660,
+    "parent_pid": 0
+  },
+  {
+    "id": "mp_004",
+    "timestamp": "2026-10-31T03:33:09",
+    "source": "MemoryManager",
+    "event_type": "Process",
+    "message": "Allocated 333 MB non-paged memory buffer at address 0xDEADBEEF.",
+    "memory_address": "0xDEADBEEF",
+    "allocated_mb": 333
+  },
+  {
+    "id": "mp_005",
+    "timestamp": "2026-10-31T03:33:14",
+    "source": "ProcessWatcher",
+    "event_type": "Process",
+    "message": "Whisper thread spawned: thread #0333 listening on dormant virtual audio bus.",
+    "thread_id": "0333",
+    "target": "virtual_mic_0"
+  },
+  {
+    "id": "mp_006",
+    "timestamp": "2026-10-31T03:34:00",
+    "source": "ProcessWatcher",
+    "event_type": "Process",
+    "message": "Process daemon.spirit terminated abruptly with exit code 0x0000NULL.",
+    "exit_code": "0x0000NULL"
+  },
+  {
+    "id": "mp_007",
+    "timestamp": "2026-10-31T04:12:45",
+    "source": "SystemKernel",
+    "event_type": "System",
+    "message": "System wake-up timer verified: Normal clock synchronization completed.",
+    "ntp_server": "pool.ntp.org"
+  }
+]
